@@ -29,8 +29,8 @@ public class House {
     public String[] getResidentsNames(){
         return residentsNames;
     }
-    public void setResidentsNames(String[] residentsNames){
-        this.residentsNames = residentsNames;
+    public void setResidentsNames(String residentsNames){
+        this.residentsNames = residentsNames.split(",");
     }
 
 
